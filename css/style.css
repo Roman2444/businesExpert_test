@@ -324,10 +324,28 @@ body {
     padding-top: 36px;
 }
 
+
+/* media to  second-block-oppotunities*/
+
 @media (max-width: 686px) {
     .second-block-oppotunities-body {
         padding: 50px 0px  0px 0px; 
     }
+    .opportunities-list-text {
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 422px) {
+    .second-block-oppotunities-body {
+        padding: 25px 0px  0px 0px; 
+    }
+    .second-block-title {
+        padding-bottom: 25px;
+        font-size: 30px;
+        line-height: 1;
+    }
+
 }
 
 /* page-second-block-differences */
