@@ -49,7 +49,7 @@ body {
 }
 
 .container {
-    max-width: 910px;
+    max-width: 970px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -92,9 +92,9 @@ body {
 
 .nav-header-link {
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
     color: #ffffff;
-    white-space:nowrap;
+    white-space: nowrap;
 }
 
 .nav-header-item:not(:last-child) {
@@ -162,7 +162,7 @@ body {
     max-width: 500px;
     padding-top: 145px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .main-block-title {
@@ -259,7 +259,77 @@ body {
 }
 
 
-/* page-main-block-differences */
+/* page-second-block-opportunities */
+
+/* не получилось, картинку видно только при отрицптельном z-index */
+/* .second-block {
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 630px;
+    position: relative;
+}
+
+.second-block-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}  */
+
+
+.second-block {
+    /* max-width: 1920px; */
+    margin: 0 auto;
+    height: 630px;
+    background: url(../img/second_page.jpg)  center center/cover no-repeat;
+}
+
+.second-block-oppotunities-body {
+    padding: 100px 0px  0px 0px; 
+    /* position: relative;
+    z-index: 5;    */
+
+}
+
+.second-block-title {
+    max-width: 160px;
+    padding-bottom: 104px;
+    padding-left: 20px;
+
+    font-size: 53px;
+    line-height: 59px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.opportunities-list {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+.opportunities-list-item {
+    max-width: 140px;
+}
+
+.opportunities-list-item:hover {
+    cursor: pointer;
+}
+
+.opportunities-list-text {
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    padding-top: 36px;
+}
+
+/* page-second-block-differences */
 
 .second-block-differences-body {
     margin-top: 110px;
