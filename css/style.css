@@ -260,6 +260,7 @@ body {
 
 
 /* page-second-block-opportunities */
+/* ===================================== */
 
 .second-block {
     /* max-width: 1920px; */
@@ -373,4 +374,41 @@ body {
 
 .second-block-differences-text > p:not(:last-child) {
     margin-bottom: 15px;
+}
+
+/* page-third-block-economize */
+/* ================================ */
+
+.page-third-block-economize {
+    margin: 0 auto;
+    height: 455px;
+    background-color: #f0f4ff;
+    position: relative;
+}
+
+.third-block-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 10%; 
+}
+
+.third-block-image img {
+    object-fit: contain;
+}
+
+.economize-block-body {
+    padding-top: 153px;
+    position: relative;
+    z-index: 1;  
+}
+
+.economize-block-text {
+    max-width: 500px;
+    padding-bottom: 58px;
+
+    font-size: 29.1px;
+    line-height: 1.2;
+    font-weight: 400;
 }
