@@ -261,9 +261,8 @@ body {
 
 /* page-second-block-opportunities */
 
-/* не получилось, картинку видно только при отрицптельном z-index */
-/* .second-block {
-    max-width: 1920px;
+.second-block {
+    /* max-width: 1920px; */
     margin: 0 auto;
     height: 630px;
     position: relative;
@@ -275,22 +274,12 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    z-index: -1;
-}  */
-
-
-.second-block {
-    /* max-width: 1920px; */
-    margin: 0 auto;
-    height: 630px;
-    background: url(../img/second_page.jpg)  center center/cover no-repeat;
-}
+} 
 
 .second-block-oppotunities-body {
     padding: 100px 0px  0px 0px; 
-    /* position: relative;
-    z-index: 5;    */
-
+    position: relative;
+    z-index: 2;   
 }
 
 .second-block-title {
