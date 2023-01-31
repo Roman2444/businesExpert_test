@@ -68,7 +68,6 @@ body {
 }
 
 
-
 /* header */
 /* ======== */
 
@@ -132,8 +131,6 @@ body {
 /* ========================= */
 .page {
     flex: 1 1 auto;
- 
-    
 }
 
 /* ниже закомментирован вариан с картиной в кач-ве бэкграунда
@@ -151,7 +148,6 @@ body {
     margin: 0 auto;
     height: 630px;
     position: relative;
-   
 }
 
 .main-block-image {
@@ -284,7 +280,6 @@ body {
     hyphens: auto;
 
     padding-top: 63px;
-
 }
 
 .second-block-differences-text > p:not(:last-child) {
