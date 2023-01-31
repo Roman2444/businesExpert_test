@@ -301,8 +301,13 @@ body {
     text-align: center;
 
 }
+
 .opportunities-list-item {
     max-width: 140px;
+}
+
+.opportunities-list-item:not(:last-child) {
+    padding-right: 10px;
 }
 
 .opportunities-list-item:hover {
@@ -317,6 +322,12 @@ body {
     color: #ffffff;
 
     padding-top: 36px;
+}
+
+@media (max-width: 686px) {
+    .second-block-oppotunities-body {
+        padding: 50px 0px  0px 0px; 
+    }
 }
 
 /* page-second-block-differences */
