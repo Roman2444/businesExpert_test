@@ -553,7 +553,7 @@ body {
 .footer-contacts-list-item {
     font-size: 15px;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 400;
     color: #e6e7e8;
 
     max-width: 154px;
@@ -566,8 +566,48 @@ body {
 
 .footer-contacts-list-item-header {
     min-height: 40px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .footer-contacts-list-item-adress {
     min-height: 96px;
+}
+
+.contact-item-bold-span {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* footer-copyright */
+/* ========================*/
+
+.footer-copyrigh-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0;
+    margin-top: 130px;
+}
+
+.footer-link {
+    font-family: 'Segoe UI';
+    font-size: 12.1px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.footer-copyrigh-text {
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6e7479;
+    vertical-align:bottom;
+}
+
+.img-logo-min {
+    vertical-align: bottom;
+    padding-right: 6px;
 }
