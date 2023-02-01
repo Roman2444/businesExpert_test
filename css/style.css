@@ -259,6 +259,7 @@ body {
 }
 
 
+
 /* page-second-block-opportunities */
 /* ===================================== */
 
@@ -411,4 +412,36 @@ body {
 .page-third-block-numbers-body {
     margin-top: 90px;
     margin-bottom: 193px;
+}
+
+.numbers-list {
+    padding-top: 96px;
+
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+    text-align: left;
+}
+
+.numbers-list-item {
+    max-width: 240px;
+}
+
+.numbers-list-header {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2a6dc5;
+
+    max-width: 180px;
+    padding-top: 57px;
+    padding-bottom: 31px;
+}
+
+.numbers-list-text {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
 }
