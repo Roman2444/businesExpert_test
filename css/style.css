@@ -237,7 +237,7 @@ body {
     margin-bottom: 86px;
 }
 
-.main-block-practical-body-title{
+.body-title-second{
     font-size: 37px;
     line-height: 1.2;
     font-weight: 700;
@@ -356,13 +356,6 @@ body {
     margin-bottom: 76px;
 }
 
-.second-block-differences-title {
-    font-size: 37px;
-    line-height: 1.2;
-    font-weight: 700;
-
-}
-
 .second-block-differences-text {
     font-size: 15px;
     line-height: 1.2;
@@ -411,4 +404,11 @@ body {
     font-size: 29.1px;
     line-height: 1.2;
     font-weight: 400;
+}
+
+/* page-third-block-numbers */
+
+.page-third-block-numbers-body {
+    margin-top: 90px;
+    margin-bottom: 193px;
 }
